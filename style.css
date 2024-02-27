@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 100vh;
+  background-image: url(img.gif);
+  background-size: cover;
+  background-position: center;
+  transition: ease-in-out 0.3s;
+   
+}
+.heade{
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(250, 250, 5, 0.61);
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1,0.5);
+}
+#heding{
+    color: #038998;
+}
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+
+.score{
+text-align: center;
+    width:300px ;
+    margin-bottom: 50px;
+}
+.results{
+    color: rgb(0, 0, 0);
+}
+
+
+
+.grid{
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(30, 199, 221);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+
+.grid div{
+    width: 20px;
+    height: 20px;
+  
+}
+
+.invader{
+   
+    border-radius: 10px;
+    background-image: url(alien.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shooter{
+   
+    background-image: url(shooter.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30%;
+
+}
+
+.laser{
+    background-image: url(bullet.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+
+.boom{
+  background-image: url(boom.jpg);
+    border-radius: 50%;
+    
+}
+
+.button{
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.BTN{
+    width: 104px;
+       border-radius: 7px;
+       background-color: darkslategrey;
+}
+.button .btn{
+    font-size: 1.8rem;
+    border: none;
+    background: none;
+    color: white;
+} 
+
+.BTN:hover{
+    background-color: rgb(29, 128, 128);
+}
